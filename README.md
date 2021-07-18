@@ -10,10 +10,9 @@ The source code for the project is in two dictionaries. The first "Arduino33BleS
 
 ## Schematic 
 
-[Add image...]
+![A simple schematic of the project in an electrical sense](https://raw.githubusercontent.com/SE7-KN8/voice-commands-car/main/.images/overview.png)
 
 
 ## Model creating and training
 The traing data for the voice commands was created using TensorFlow/Google Speech Commands Dataset. The base data was modified with some noise to allow the model to learn using the conditions on the microcontroller. To build and train a TFlite model, EdgeImpulse was used. At first all training data was uploaded to EdgeImpulse. Then for the model an MFCC filter was used because the project only feature human audio samples and so the model could be better trained in the application. Then the model was trained and exported as an Arduino library to which the code was added to control the car.
-
 

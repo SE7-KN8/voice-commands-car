@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "Arduino33BleSenseTest"
+		},
+		{
+			"name": "VoiceControlBase",
+			"path": "VoiceControlBase"
+		}
+	],
+	"settings": {}
+}

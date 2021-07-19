@@ -2,6 +2,11 @@
 
 (This is a submission to the 2021 TensorFlow Microcontroller Challenge)
 
+## Images
+![Left view of the car](https://raw.githubusercontent.com/SE7-KN8/voice-commands-car/main/.images/left.jpg)
+![Top view of the car](https://raw.githubusercontent.com/SE7-KN8/voice-commands-car/main/.images/top.jpg)
+![Right view of the car](https://raw.githubusercontent.com/SE7-KN8/voice-commands-car/main/.images/right.jpg)
+
 ## Overview
 This project features a car which can controlled by voice commands such as "go", "left", "right" and "stop". To achive this two microcontrollers are used. One Arduino Uno for controlling the motors and one Arduino 33 Ble Sense for receiving the voice input and run the infercing using a trained tensorflow lite model. The final command is sent via a serial port to the arduino uno which parses the command and set the motors accordingly.
 

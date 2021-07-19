@@ -15,8 +15,8 @@ void go()
 {
   stop();
   servo.write(90);
-  analogWrite(3, 50);
-  analogWrite(11, 50);
+  analogWrite(3, 100);
+  analogWrite(11, 100);
 }
 
 void backwards()
